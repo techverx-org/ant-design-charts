@@ -1,3 +1,27 @@
+## 2.2.6
+
+`2024-12-20`
+
+- 🔥 [Graphs] 适配 G6 最新版本
+
+## 2.2.3
+
+`2024-11-11`
+
+- 🔥 已接入 8 类流程图组件
+
+## 2.2.1
+
+`2024-08-26`
+
+- 🐞 [🧐[问题]ESM packages (lodash-es) need to be imported. ](https://github.com/ant-design/ant-design-charts/issues/2489)
+
+## 2.1.2
+
+`2024-07-24`
+
+- 🔥 Support SSR
+
 ## 2.1.1
 
 `2024-05-06`

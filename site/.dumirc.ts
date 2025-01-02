@@ -6,6 +6,16 @@ export default defineConfig({
     { id: 'zh', name: '中文' },
     { id: 'en', name: 'English' },
   ],
+  title: 'Ant Design Charts', // 网站header标题
+  favicons: ['https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original'], // 网站 favicon
+  metas: [
+    // 自定义 meta 标签
+    { name: 'keywords', content: 'Ant Design Charts' },
+    {
+      name: 'description',
+      content: 'AntV react component library',
+    },
+  ],
   themeConfig: {
     title: 'Ant Design Charts',
     description: 'AntV react component library',
@@ -43,10 +53,10 @@ export default defineConfig({
         },
       },
       {
-        slug: 'docs/options/plots/overview',
+        slug: 'docs/options',
         title: {
           zh: '选项',
-          en: 'Option',
+          en: 'Options',
         },
       },
       {
@@ -138,6 +148,14 @@ export default defineConfig({
         },
         order: 10,
       },
+      {
+        slug: 'options/graphs',
+        title: {
+          zh: '关系图组件',
+          en: 'Relation Graph Components',
+        },
+        order: 2,
+      },
     ],
     examples: [
       {
@@ -154,6 +172,14 @@ export default defineConfig({
         title: {
           zh: '统计图表',
           en: 'Statistics',
+        },
+      },
+      {
+        slug: 'relations',
+        icon: 'line',
+        title: {
+          zh: '关系图',
+          en: 'Relations',
         },
       },
     ],
@@ -276,6 +302,8 @@ export default defineConfig({
     },
   },
   mfsu: false,
+  mako: {},
+  jsMinifier: 'terser',
   alias: {
     // 根据自己项目结构书写绝对路径
     '@': __dirname,

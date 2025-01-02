@@ -4,11 +4,11 @@
 
 A React chart library, based on [G2](https://github.com/antvis/G2), [G6](https://github.com/antvis/G6), [X6](https://github.com/antvis/X6), [L7](https://github.com/antvis/L7).
 
-![build](https://github.com/ant-design/ant-design-charts/workflows/build/badge.svg)
 ![npm](https://img.shields.io/npm/v/@ant-design/charts)
 ![npm](https://img.shields.io/npm/dm/@ant-design/charts)
 [![GitHub stars](https://img.shields.io/github/stars/ant-design/ant-design-charts)](https://github.com/ant-design/ant-design-charts/stargazers)
 [![npm License](https://img.shields.io/npm/l/@ant-design/charts.svg)](https://www.npmjs.com/package/@ant-design/charts)
+
 
 <p align="center">
   <a href="https://ant-design-charts.antgroup.com/en/">Website</a> •

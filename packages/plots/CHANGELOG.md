@@ -1,3 +1,56 @@
+## 2.3.3
+
+`2025-01-02`
+
+- 🐞 修复对称条形图在堆叠情况下缩放容器导致的 axis 更新错误
+
+
+## [2.3.2](https://github.com/ant-design/ant-design-charts/compare/2.2.1...2.3.2) (2024-09-06)
+
+
+### Bug Fixes
+
+* data update ([#2684](https://github.com/ant-design/ant-design-charts/issues/2684)) ([11379e6](https://github.com/ant-design/ant-design-charts/commit/11379e6f791318fefaa036a3640cc3f9feb089f9))
+* tooltip callback ([#2686](https://github.com/ant-design/ant-design-charts/issues/2686)) ([19d714d](https://github.com/ant-design/ant-design-charts/commit/19d714d958ab8a539c1267b28b6ee2c5ff84f735))
+
+
+## 2.3.1
+
+`2024-08-26`
+
+- 🐞 [🧐[问题]ESM packages (lodash-es) need to be imported. ](https://github.com/ant-design/ant-design-charts/issues/2489)
+
+## 2.2.8
+## 2.2.7
+`2024-08-05`
+
+- 🐞 [Webpack v4 (import * as issue) fix](https://github.com/ant-design/ant-design-charts/pull/2613)
+- 🐞 [水波图Liquid组件当percent为0时，backgroundFill不生效](https://github.com/ant-design/ant-design-charts/issues/2628)
+
+## 2.2.6
+
+`2024-07-24`
+
+- 🔥 Support SSR
+
+## 2.2.5
+
+`2024-07-03`
+
+- 🐞 修复 flex 模式下，无法默认适应容器宽度问题
+
+## 2.2.4
+
+`2024-06-20`
+
+- 🐞 fix dependencies
+
+## 2.2.3
+
+`2024-06-20`
+
+- 💄 内置交互逻辑 `elementHighlightByColor` 更新为 `elementHighlight`
+
 ## 2.2.2
 
 `2024-05-06`
